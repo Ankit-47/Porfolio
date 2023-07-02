@@ -4,8 +4,229 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ankit Katwal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7426b6382d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/A_N_K_I_T.-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li> <a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/Tech learner</p>
+                <h1>Hi, I'm<span> Ankit Katwal</span><br>from Nepal</h1>
+
+            </div>
+        </div>  
+    </div>
+    <!-- ----------about--------- -->
+    <div id="about">
+      <div class="container">
+           <div class="row">
+                    <div   div   div class="about-col-1">
+                        <img src="images/IMG-20230611-WA0008.jpg">
+                    </div>
+                <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Web developers create functional, user-friendly websites and web applications. They may write code, develop and test new applications, or monitor site performance and traffic. Front-end developers focus on the user-facing side of their work, while back-end developers make websites functional and secure.</p>
+
+                    <div       class="tab-tile">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                 <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                        <li><span>Programming in C</span><br>
+                        <li><span>Learning Object Oriented Programming in C++</span> <br></li>
+                        <li><span>Beginner in Javascript</span> </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>No experience</span><br>Since I am just learining.I haven't been so perfect to do jobs.</li>
+                
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2020</span><br>Completed my secondary education from Shiksha Sandesh Sec. School.</li>
+                        <li><span>2020-2022</span><br>Completed high school form Dharan Adharsa Collage from science faculty.</li>
+                        <li><span>2022-</span><br> Currently studying Software Engineering in 1st year in NCIT,Balkumari,Laltipur.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <!-- ===============sevices========= -->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                 <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h1>Web Design</h1>
+                        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h1>UI/UX</h1>
+                        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div> 
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h1>App development</h1>
+                        <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+
+                 </div>
+            </div>
+
+         </div>    
+
+<!-- ===========Portfolio=========== -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+             <div class="work-list"> 
+                <div class="work">
+                <img src="images/work-1.png"> 
+             <div class="layer">
+                <h3>Social Media</h3>
+                <p>
+                    The app that conect talenteed people all around the world.
+                    Download it from playstore.
+                </p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+             </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        The app that conect talenteed people all around the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>
+                        The app that conect talenteed people all around the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+ 
+
+<!-- ============contact========= -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-regular fa-paper-plane"></i>ankitkatwal47@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i>9805319388</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ankeet.kc.9"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ankit-katwal-161947264/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" class="btn btn2">Downlaod CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text" name="Name"placeholder="Your name"required>
+                        <input type="email" name="Email"placeholder="Your email"required>
+                        <textarea name="Message"rows="6"placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@ No Copyright. Made by Ankit<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks ){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents ){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }     
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEiVnPrcRpMSIdN3OZwFBrlgj_vsC1yjobew7fWVD_dsn-M4MVTMP-x4llFKL2l_lg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
